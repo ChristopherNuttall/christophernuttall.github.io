@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
@@ -20,10 +20,9 @@ author_profile: true
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
 
-{% raw %}
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var map = L.map('talks-map').setView([40, 15], 5); // centre over Europe
+    var map = L.map('talks-map').setView([40, 15], 5); // Center over Europe
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
@@ -51,4 +50,3 @@ author_profile: true
     });
   });
 </script>
-{% endraw %}
