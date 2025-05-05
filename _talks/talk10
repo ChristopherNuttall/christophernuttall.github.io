@@ -5,6 +5,8 @@ type: "Talk"
 venue: "Swedish Institute at Athens"
 date: 2018-06-01
 location: "Athens, Greece"
+latitude: 37.9755
+longitude: 23.7364
 ---
 
 This talk explores prehistoric coastal habitation in the Aegean, examining
