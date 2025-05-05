@@ -5,5 +5,7 @@ type: "Talk"
 venue: "Doctoral thesis defence"
 date: 2021-12-18
 location: "Uppsala, Sweden"
+latitude: 59.8586
+longitude: 17.6389
 ---
 This doctoral thesis defence explores human-sea interactions in the Aegean from the Late Neolithic to the Late Bronze Age, analyzing the role of coastal landscapes in prehistoric societies.
