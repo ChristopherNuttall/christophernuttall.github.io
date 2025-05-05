@@ -17,7 +17,7 @@ author_profile: true
 **Tutor**  
 *National and Kapodistrian University of Athens*  
 **Course**: *ArcGIS Online for Archaeologists* (MA-level) – Weekly assignments using ArcGIS Online
-[Syllabus (PDF)](/assets/syllabi/2019-troy-mycaenae.pdf)
+[Syllabus (PDF)](/assets/GISTutorial.pdf)
 
 **Invited Lecturer**  
 *Swedish Institute at Athens*  
@@ -48,7 +48,7 @@ author_profile: true
 *University of Uppsala*  
 **Course**: *From Troy to Mycenae* (Year 2 UG-level) – 7.5 ECTS  
 **Topic**: Introduction to Prehistoric and Early Iron Age Greece  
-[Syllabus (PDF)](/assets/syllabi/2019-troy-mycaenae.pdf)
+[Syllabus (PDF)](/assets/AKS2019.pdf)
 
 ---
 
