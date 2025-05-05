@@ -1,0 +1,10 @@
+---
+title: "In the Shadows of a Giant’; A GIS-led Spatial Analysis of Saronic Gulf Coastscapes (Greece) from Early Bronze II–Late Bronze Age IIIA"
+collection: talks
+type: "Talk"
+permalink: /talks/talk4
+venue: "EAA Belfast, Session 92 Marginal Landscapes and Coastal Adaptations during Prehistory"
+date: 2023-08-01
+location: "Belfast, Northern Ireland"
+---
+This talk explores GIS-driven spatial analysis of Saronic Gulf coastscapes from Early Bronze II to Late Bronze Age IIIA, focusing on marginal landscapes and prehistoric coastal adaptations.
