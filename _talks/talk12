@@ -5,6 +5,8 @@ type: "Talk"
 venue: "U4 Antiquity Winter School"
 date: 2017-03-01
 location: "Athens, Greece"
+latitude: 37.9755
+longitude: 23.7364
 ---
 
 This talk explores the contrasting developments in social complexity between the Cyclades and Crete at the end of the Early Bronze Age, analyzing archaeological and cultural dynamics in the Aegean.
