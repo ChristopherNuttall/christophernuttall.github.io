@@ -13,22 +13,22 @@ My research and fieldwork experience has included a series of postdoctoral and p
 
 <ul>
   <li>
-    <h3><a href="{{ site.baseurl }}/_research/lisp/">Little Islandscapes of the Saronic Project (LISP)</a></h3>
+    <h3><a href="{{ site.baseurl }}/research/lisp/">Little Islandscapes of the Saronic Project (LISP)</a></h3>
     <p><em>Project Director</em><br>
     Archaeological survey exploring human occupation and land-use strategies on small islands of the Saronic Gulf, Greece.</p>
   </li>
   <li>
-    <h3><a href="{{ site.baseurl }}/_research/populating_coastal_landscapes/">Populating the Coastal Landscapes of Greece</a></h3>
+    <h3><a href="{{ site.baseurl }}/research/populating_coastal_landscapes/">Populating the Coastal Landscapes of Greece</a></h3>
     <p><em>Principal Investigator</em><br>
     GIS-based analyses of prehistoric coastal habitation patterns in central and southern Greece (7000–1100 BCE).</p>
   </li>
   <li>
-    <h3><a href="{{ site.baseurl }}/_research/seascape_dialogues/">Seascape Dialogues: Human-sea Interaction in the Aegean</a></h3>
+    <h3><a href="{{ site.baseurl }}/research/seascape_dialogues/">Seascape Dialogues: Human-sea Interaction in the Aegean</a></h3>
     <p><em>Doctoral Researcher</em><br>
     Doctoral Thesis. Analysis of maritime engagement by prehistoric Aegean communities (Late Neolithic–Late Bronze Age).</p>
   </li>
   <li>
-    <h3><a href="{{ site.baseurl }}/_research/phylakopi/">British School at Athens Phylakopi Republication Project</a></h3>
+    <h3><a href="{{ site.baseurl }}/research/phylakopi/">British School at Athens Phylakopi Republication Project</a></h3>
     <p><em>Project Member</em><br>
     Re-study and publication of archaeological material from Phylakopi on Melos.</p>
   </li>
