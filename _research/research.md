@@ -3,16 +3,13 @@ layout: single
 title: "Research Profile"
 permalink: /research/
 ---
+I am currently a postdoctoral researcher based in Athens, Greece, at the Swedish Institute at Athens and the National and Kapodistrian University of Athens. My academic journey has consistently focused on the archaeology of prehistoric Greece and the Aegean, landscape archaeology, spatial analyses, and human-sea interactions. I have been particularly interested in how ancient populations interacted with their environments, especially coastal and island landscapes, using digital and archaeological methods to interpret past human behaviours and settlement patterns.
 
-# Research Profile
-
-I am currently a postdoctoral researcher based in Athens, Greece, at the  
-**Swedish Institute at Athens** and the **National and Kapodistrian University of Athens**.  
-My academic journey has consistently focused on the archaeology of prehistoric Greece and the Aegean, landscape archaeology, spatial analyses, and human-sea interactions...
+I earned my PhD from the University of Uppsala, Sweden, where my research employed a multi-variate and multi-scalar analysis of human-sea interactions on the Greek mainland, Aegean islands, and Crete from the Late Neolithic to the Late Bronze Age. Since then, my academic appointments have included roles as a Postdoctoral Research Fellow and Field Director on projects in Greece, where I've further expanded my work on islandscapes, maritime connectivity, human-sea interaction, and prehistoric ceramics.
 
 ## Fieldwork & Research Projects
 
-My research and fieldwork experience includes a series of postdoctoral and postgraduate projects, as well as fieldwork involving archaeological surveys and excavations in various regions of Greece...
+My research and fieldwork experience has included a series of postdoctoral and postgraduate projects, as well as fieldwork involving archaeological surveys and excavations in various regions of Greece, notably on Crete, the Peloponnese, the Cyclades, and Boiotia. I have collaborated with international teams and contributed to interdisciplinary studies on prehistoric Greece. My ongoing research integrates spatial technology, ceramic analysis, and archaeological field methods to build a nuanced understanding of past societies, environment-human interactions, and the complexities of prehistoric Aegean communities. Below are more specific descriptions of my research projects.
 
 <ul>
   <li>
@@ -56,11 +53,11 @@ My research and fieldwork experience includes a series of postdoctoral and postg
   </li>
   <li>
     <strong>2013–2015. Oxford Archaeology South Ltd</strong>, Southern England. Role: Assistant Supervisor<br>
-    <a href="https://www.oxfordarchaeology.com/" target="_blank" rel="noopener noreferrer">Learn more about this project</a>
+    <a href="https://www.oxfordarchaeology.com/" target="_blank" rel="noopener noreferrer">Learn more about this company</a>
   </li>
   <li>
     <strong>2015. Pre-construct Archaeological Services</strong>, Southern England. Role: Assistant Supervisor<br>
-    <a href="https://www.pcas-archaeology.co.uk/" target="_blank" rel="noopener noreferrer">Learn more about this project</a>
+    <a href="https://www.pcas-archaeology.co.uk/" target="_blank" rel="noopener noreferrer">Learn more about this company</a>
   </li>
   <li>
     <strong>2013. Keros Island Survey Project</strong>, Cyclades, Greece. Role: Field Surveyor<br>
