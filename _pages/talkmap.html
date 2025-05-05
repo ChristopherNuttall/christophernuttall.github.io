@@ -5,5 +5,53 @@ permalink: /talkmap.html
 author_profile: true
 ---
 
-<p>This map is generated from a Jupyter Notebook file in <a href="https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb">talkmap.ipynb</a>, which mines the location fields in the .md files in _talks/.</p>
-<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
+<h2>Map of My Talks</h2>
+<p>This interactive map shows locations where I have given academic presentations.</p>
+
+<!-- Leaflet CSS -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""
+/>
+
+<!-- Map Container -->
+<div id="map" style="height: 500px; margin-top: 1em;"></div>
+
+<!-- Leaflet JS -->
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""
+></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var map = L.map('map').setView([40, 15], 5); // centre over Europe
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    // Add your presentation markers here
+    const talks = [
+      { title: "Belfast", lat: 54.5973, lon: -5.9301 },
+      { title: "Athens", lat: 37.9755, lon: 23.7364 },
+      { title: "Uppsala", lat: 59.8586, lon: 17.6389 },
+      { title: "Cardiff", lat: 51.4816, lon: -3.1791 },
+      { title: "Naples", lat: 40.8518, lon: 14.2681 },
+      { title: "Würzburg", lat: 49.7913, lon: 9.9534 },
+      { title: "Warsaw", lat: 52.2297, lon: 21.0122 },
+      { title: "Stockholm", lat: 59.3293, lon: 18.0686 },
+      { title: "Turin", lat: 45.0703, lon: 7.6869 }
+    ];
+
+    talks.forEach(function (talk) {
+      L.marker([talk.lat, talk.lon])
+        .addTo(map)
+        .bindPopup('<strong>' + talk.title + '</strong>');
+    });
+  });
+</script>
