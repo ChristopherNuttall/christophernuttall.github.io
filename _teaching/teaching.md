@@ -63,7 +63,6 @@ I have extensive experience teaching archaeology at undergraduate and graduate l
 **Course Leader**  
 *University of Uppsala*  
 **Course**: *From Troy to Mycenae* (Year 2 UG-level) – 7.5 ECTS  
-[Syllabus (PDF)](/assets/syllabi/2018-troy-mycaenae.pdf)
 
 ---
 
@@ -71,7 +70,6 @@ I have extensive experience teaching archaeology at undergraduate and graduate l
 **Course Leader**  
 *University of Uppsala*  
 **Course**: *From Troy to Mycenae* (Year 2 UG-level) – 7.5 ECTS  
-[Syllabus (PDF)](/assets/syllabi/2017-troy-mycaenae.pdf)
 
 ---
 
