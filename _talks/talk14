@@ -5,6 +5,8 @@ type: "Talk"
 venue: "U4 Antiquity Winter School"
 date: 2017-03-01
 location: "Naples, Italy"
+latitude: 40.8518
+longitude: 14.2681
 ---
 
 This talk examines prehistoric maritime culture in the Aegean, exploring how societies navigated, traded, and formed cultural identities without written records.
