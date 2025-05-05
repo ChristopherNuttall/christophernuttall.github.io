@@ -5,9 +5,6 @@ permalink: /talks/
 author_profile: true
 ---
 
-<h2>Map of Talks</h2>
-<div id="talks-map" style="height: 500px; margin-bottom: 2em;"></div>
-
 {% if site.talkmap_link == true %}
   <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
@@ -15,38 +12,3 @@ author_profile: true
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
-
-<!-- Leaflet CSS & JS -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var map = L.map('talks-map').setView([40, 15], 5); // Center over Europe
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    var markers = [
-      {% assign has_marker = false %}
-      {% for post in site.talks %}
-        {% if post.latitude and post.longitude %}
-          {% if has_marker %},{% endif %}
-          {
-            title: {{ post.title | jsonify }},
-            lat: {{ post.latitude }},
-            lon: {{ post.longitude }},
-            url: {{ post.url | jsonify }}
-          }
-          {% assign has_marker = true %}
-        {% endif %}
-      {% endfor %}
-    ];
-
-    markers.forEach(function(talk) {
-      L.marker([talk.lat, talk.lon]).addTo(map)
-        .bindPopup("<a href='" + talk.url + "'><strong>" + talk.title + "</strong></a>");
-    });
-  });
-</script>
