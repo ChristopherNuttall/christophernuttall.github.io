@@ -6,7 +6,18 @@ author_profile: true
 ---
 
 <h2>Map of Talks</h2>
-<div id="talks-map" style="height: 500px; margin-bottom: 2em;"></div>
+
+<!-- Ensure height with inline AND block styling -->
+<style>
+  #talks-map {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 2em;
+    border: 1px solid #ccc;
+  }
+</style>
+
+<div id="talks-map"></div>
 
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
@@ -29,15 +40,15 @@ author_profile: true
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var map = L.map("talks-map").setView([40, 15], 5); // Centre over Europe
+    const map = L.map("talks-map").setView([40, 15], 5);
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
 
-    var markers = [
+    const markers = [
       {% assign has_marker = false %}
       {% for post in site.talks %}
         {% if post.latitude and post.longitude %}
@@ -56,7 +67,7 @@ author_profile: true
     markers.forEach(function (talk) {
       L.marker([talk.lat, talk.lon])
         .addTo(map)
-        .bindPopup("<a href='" + talk.url + "'><strong>" + talk.title + "</strong></a>");
+        .bindPopup(`<a href="${talk.url}"><strong>${talk.title}</strong></a>`);
     });
   });
 </script>
