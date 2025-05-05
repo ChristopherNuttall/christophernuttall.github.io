@@ -5,6 +5,8 @@ type: "Talk"
 venue: "TAG Cardiff"
 date: 2017-12-01
 location: "Cardiff, UK"
+latitude: 51.4816
+longitude: -3.1791
 ---
 
 This talk examines long-term maritime interactions in the Aegean Islands during the Bronze Age, exploring connectivity, trade networks, and the role of the sea in shaping island communities.
