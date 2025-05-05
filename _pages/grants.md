@@ -9,6 +9,7 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% for grant in site.grants reversed %}
+  {% include archive-single-grant.html %}
 {% endfor %}
+
