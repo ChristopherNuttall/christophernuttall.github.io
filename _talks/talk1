@@ -5,5 +5,7 @@ type: "Talk"
 venue: "Belgian School at Athens, Greece"
 date: 2024-02-01
 location: "Athens Greece"
+latitude: 37.9755
+longitude: 23.7364
 ---
 This talk concerned spatial analytical approaches to the coastscapes of Aegean prehistory. More information [here](https://www.ebsa.info/pages/page.php?pge=14).
