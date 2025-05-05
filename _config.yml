@@ -36,7 +36,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=v0Km0_wAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0003-2679-9677"
-  zenodo           : # URL
+  zenodo           : "https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Nuttall%2C%20Christopher%22"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Christopher-Nuttall-6"
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "christopher-nuttall-a1020522a"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
