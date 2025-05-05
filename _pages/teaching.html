@@ -5,8 +5,11 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+I have extensive experience teaching archaeology at undergraduate and graduate levels, emphasizing hands-on learning and interdisciplinary approaches. As course leader for *From Troy to Mycenae* at Uppsala University, I planned, wrote, delivered, and graded coursework, honing my ability to design comprehensive academic programs. I have led site tours at major archaeological locations across Greece, tutored GIS methodologies, co-directed field schools, and contributed to courses on Mediterranean colonization — all aimed at fostering critical thinking and engagement with archaeological research.
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% for item in site.teaching reversed %}
+  <div class="archive__item">
+    <h2 class="archive__item-title">{{ item.title }}</h2>
+    <p class="archive__item-excerpt">{{ item.excerpt | markdownify }}</p>
+  </div>
 {% endfor %}
