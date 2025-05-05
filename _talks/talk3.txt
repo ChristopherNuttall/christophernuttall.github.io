@@ -2,7 +2,7 @@
 title: "Descending into the Maelstrom’. Seafaring Iconography in Early Cycladic 'Frying Pans' from Chalandriani (Greece)"
 collection: talks
 type: "Talk"
-permalink: /assets/Maelstrom.pdf
+permalink: /files/Maelstrom.pdf
 venue: "DEGUWA, IPR XXX, Würzburg, Germany"
 date: 2025-04-01
 location: "Würzburg, Germany"
