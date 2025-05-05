@@ -5,6 +5,8 @@ type: "Talk"
 venue: "Islands in Dialogue (ISLANDIA) Conference"
 date: 2018-11-01
 location: "Turin, Italy"
+latitude: 45.0703
+longitude: 7.6869
 ---
 
 This talk explores the role of seascapes in shaping cultural interactions and connectivity, examining the concept of an ‘international spirit’ in island societies.
