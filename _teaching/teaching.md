@@ -5,6 +5,8 @@ permalink: /teaching/
 author_profile: true
 ---
 
+I have secured competitive funding from multiple institutions to support my research in Aegean archaeology, coastal landscapes, and prehistoric maritime interactions. My grants include substantial awards from the Swedish Research Council, Enboms donationsfond, and Magnus Bergvall Foundation, enabling projects such as Little Islandscape of the Saronic Project and Populating the Coastal Landscapes of Greece. Additionally, I have received travel and research stipends from the Axel W. Persson Foundation and the Swedish Institute at Athens, as well as full doctoral funding from Uppsala University. These grants have facilitated field surveys, GIS applications, and scholarly publications, furthering the study of seascapes and prehistoric coastal communities.
+
 ### 2024  
 **Invited Lecturer**  
 *Swedish Institute at Athens*  
