@@ -20,6 +20,7 @@ author_profile: true
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
 
+{% raw %}
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     var map = L.map('talks-map').setView([40, 15], 5); // centre over Europe
@@ -50,3 +51,4 @@ author_profile: true
     });
   });
 </script>
+{% endraw %}
