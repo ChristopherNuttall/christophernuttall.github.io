@@ -1,0 +1,9 @@
+<div class="archive__item">
+  <h2 class="archive__item-title">{{ grant.title }}</h2>
+  <p class="archive__item-excerpt">
+    {{ grant.excerpt | markdownify }}
+  </p>
+  <p class="archive__item-details">
+    {{ grant.venue }}, {{ grant.date | date: "%Y" }}
+  </p>
+</div>
