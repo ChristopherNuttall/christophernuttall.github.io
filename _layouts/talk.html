@@ -62,8 +62,8 @@ layout: default
         </div>
       {% endif %}
 
-      <section class="page__content" itemprop="text">
-        {{ content }}
+<section class="page__content" itemprop="text">
+  {{ content | markdownify }}
         {% if page.link %}
           <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
         {% endif %}
