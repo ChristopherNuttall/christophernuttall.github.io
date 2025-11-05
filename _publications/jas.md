@@ -1,7 +1,7 @@
 ---
 title: "Mycenaean roads in the Peloponnese, Greece: Least-cost path modelling using R and Movecost"
 collection: publications
-category: journal
+category: manuscripts
 permalink: /publication/jas-2025-mycenaean-roads/
 date: 2025-01-01
 year: 2025
